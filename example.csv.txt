@@ -1,0 +1,2 @@
+nombres,apellidos,twitter (enlace),facebook (enlace),instagram (enlace),telefono,genero,cargo,departamento,partido,correo electrónico,
+Miguel Ángel ,Pinto Hernández,https://twitter.com/MiguelPintoH1,https://www.facebook.com/MiguelPintoH1,https://www.instagram.com/miguelangelpinto/,4325100 ext 2345 - 1234,M,Senador de la República,Bucaramanga,Liberal,miguel.asd123@asd.gov.co,
