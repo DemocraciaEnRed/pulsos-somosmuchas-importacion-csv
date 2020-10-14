@@ -1,18 +1,18 @@
 
 ### uso:
-+ crear venv
++ crear venv   
 python3 -m venv venv 
 
-+ instalar librerías
++ instalar librerías   
 pip install -r requirements.txt 
 
-+ procesar csv
++ procesar csv   
 python3 main.py ARCHIVO.csv 
 
-+ chequear archivo exportado
++ chequear archivo exportado   
 cat somosmuchas-importacion.sql 
 
-+ correr archivo en mysql de container
++ correr archivo en mysql de container   
 docker -i exec NOMBRE_DE_CONTAINER mysql -proot --default-character-set=utf8 causascomunes < somosmuchas-importacion.sql
 
-notas: -i es importante sino no toma el pipe <. lo del character set es importante sino las tildes se rompen.
+notas del último comando: -i es importante sino no toma el pipe <. lo del character set es importante sino las tildes se rompen. -p es la contraseña o sea root. la db es causascomunes.
